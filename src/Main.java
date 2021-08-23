@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
 
-        int bmi = service.calculate(101, 1.95);
+        double bmi = service.calculate(101, 1.95);
 
-        System.out.println(bmi);
+        System.out.println (bmi);
 
 //        Таблица категорий:
 //        Крайний недостаток веса - менее 16.5
