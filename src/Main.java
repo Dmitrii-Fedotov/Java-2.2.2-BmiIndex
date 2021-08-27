@@ -4,7 +4,7 @@ public class Main {
 
         double bmi = service.calculate(101, 1.95);
 
-        System.out.println (bmi);
+        System.out.printf("%.2f\n", bmi);
 
 //        Таблица категорий:
 //        Крайний недостаток веса - менее 16.5
